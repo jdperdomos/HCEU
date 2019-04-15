@@ -749,6 +749,9 @@ Con un buen manejo del proyecto, la información del historial clínico de los p
     2. Si prefiere la creación de un perfil, para confirmar que el profesional de la salud realmente es una persona capacitada para utilizar la plataforma, ¿desea que el médico cree él mismo su cuenta con un código recibido por la SDS o el hospital en el que trabaja, o prefiere que sea el hospital, la SDS, o algún administrador capacitado el que cree la cuenta por él? 
 6. ¿Desea algún servicio adicional aparte de la creación y consulta de historias   clínicas? ¿Cuál?
 
+Justificaciones de las decisiones de diseño preliminares
+ Aplicación de una página (SPA), esto busca una experiencia más fluida a los usuarios que utilizan nuestra aplicación, una única vez los códigos HTML, javascript y css se cargan en el cliente (navegador), esto utilizando las tecnologías (React js, bootstrap, express). esto teniendo en cuenta que los usuarios tienen una conexión estable de internet y un hardware mínimo para ejecutar y utilizar la aplicación. Decidimos utilizar MongoDB debido a los requerimientos que se analizaron en el documento SI-2 OMEGA SOFTWARE (o su análogo publicado en el repositorio oficial), donde se requiere una base de datos no relacional, en mira que no existe un consenso un esquema preestablecido (patrón) para las solicitudes y servicios que se requieren además de la facilidad de obtener documentos de diferente índole.
+
     
 
 En el marco APQC involucra “Retail & City Government”
